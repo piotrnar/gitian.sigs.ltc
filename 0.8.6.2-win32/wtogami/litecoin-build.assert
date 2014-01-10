@@ -1,18 +1,18 @@
 --- !omap
 - out_manifest: |
     cc4e8ad8d6daeba4c4c135a0a73c35ff05740e870c50e09f433be4e173d0d137  COPYING.txt
-    8463e3dcf8b66a55d4f12c04be64b144483d09102a92fa1dd2fe3ce2c3ce554e  daemon/litecoind.exe
-    cdcfa04d5b6ff5ec51541b0d98fe3a2b865baf8cb6ac2f0c3db916733f238242  litecoin-0.8.6.1-win32-setup.exe
-    5ade5e224e02e9229de77420561edc8a5e40a4f4ddf00b667c396062e3418b99  litecoin-qt.exe
+    29cd15a94cb00011469bf72fa94d38ed69e6e9833bd3263ae19ec6d79e4651a2  daemon/litecoind.exe
+    4d1e6ae8548051da1351a0cf1fc0d4e2264bdc1d12dcf0fef1f7e47037bbf1b7  litecoin-0.8.6.2-win32-setup.exe
+    d49e933e74bc39ae0f51b1c34ee2d1061fa1cae948d8cbb06fbf2ad736063239  litecoin-qt.exe
     90f96a2e93b214f63d3b58ca0a844975a2ff1afe453ec3f5fb2ee20859da87f6  readme.txt
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
     31d9c5e58f81b7a4269c7e3234b580e5c119e9d97f450e466e31b067592ad25a  src/.gitignore
     cc4e8ad8d6daeba4c4c135a0a73c35ff05740e870c50e09f433be4e173d0d137  src/COPYING
     af40e53bc45af97ae49db3ce9efd9df75ab4ad03bcc89233e267d4e1908209cd  src/INSTALL
     e1d32f14e85dc78ae3f7ec08a49ed01dc4eaaa7d3c8a033dafb3a46d95c636f0  src/README.md
-    9023d95f54277d03db8774c7fd9e95d9df873505adf00ab1401189e201700bbb  src/bitcoin-qt.pro
+    038633b7b66ecaa5628565aafa444cef39d078b6322dad3517e009b26f5250f4  src/bitcoin-qt.pro
     e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/bitcoind.bash-completion
-    5846e98147c5f8b095aee945170536b165fa29fb1e1f4104a0f2cd89d5405808  src/contrib/bitrpc/bitrpc.py
+    10024645ea559e4f9a14713d12ba73f851629cb4f9f047f92b0f75f504f94967  src/contrib/bitrpc/bitrpc.py
     fcb314ec07189c713d7c19cf077864ce7b4e8f840e3caa25137b2e57deea2cee  src/contrib/debian/README
     bd0f2d3fe13e8c405ee58f988c8ab0dd1f2e7e8245d4736b59a49356b9f4ed2a  src/contrib/debian/bitcoin-qt.desktop
     601890ed01933bdde4e1734f339dceccf5a8de8894b718515b8bd43843cf722e  src/contrib/debian/bitcoin-qt.install
@@ -38,9 +38,9 @@
     1be7080d72e6b566df3e236ce2c55efdfbbb8fa1c972d825e5b672ff8773be1a  src/contrib/debian/source/format
     e3f5882724a68b1bb8af44260c11ec2cc27767fbac89bb5f3d8de45be704ce34  src/contrib/debian/watch
     7daec4c5bc07834aaa784506102cfad828fae4340c7ac206596bbcc9eae3a953  src/contrib/gitian-descriptors/README
-    21c07f5cde0ad3b865afb2ab7926972eea2af2c14c0cbeeeed7b4dca2fc6bce8  src/contrib/gitian-descriptors/boost-win32.yml
+    4829f3bd511fabc3fc77fcd9a157a6aeaefee283b3f7e8646393322f2e5e5d2c  src/contrib/gitian-descriptors/boost-win32.yml
     faf6e30ee46d82f74a75fea017ec5b1a1bc5027098abfed5d80c91c2bfdfd903  src/contrib/gitian-descriptors/deps-win32.yml
-    0a1e7848995ed6809468be28f1f008fcd37d0d0b1d9d61a9133f7f995bbbc343  src/contrib/gitian-descriptors/gitian-win32.yml
+    97bb45ca0883f44a9c02405277e7c14f14e1dbaeb52fb058d6fcfc14439f4867  src/contrib/gitian-descriptors/gitian-win32.yml
     ca0759965870406c2a875048b1923674bdb8dfc72e4f21e5a788f07dde52c823  src/contrib/gitian-descriptors/gitian.yml
     5dc8fabb6bd03ded5b00c39fc6feed4d90787899d7b2d4eb61a84579913ea7ec  src/contrib/gitian-descriptors/qt-win32.yml
     aa2226a488bd247501dee624d41eec5cf6fb64124ec13a6693628b6475b09b43  src/contrib/gitian-downloader/aspect-key.pgp
@@ -57,7 +57,7 @@
     8542e2c5ae41dc55efac6319b60ef024d5ead85163da5d85c408a43a1ad1d2ef  src/contrib/gitian-downloader/thrasher-key.pgp
     9681b9707b945af670094c725b4c0a380bad5de3b52500864a4c443cb370da97  src/contrib/gitian-downloader/win32-download-config
     07c95e99046c7554cfce39f4a300329770b259350e3cf033ada7f79430b101d4  src/contrib/gitian-downloader/wtogami-key.pgp
-    93b6dedefe70c40587a51602464249991e07cf68ae9cdb21e5799b8679bd05c8  src/contrib/homebrew/bitcoin.qt.pro.patch
+    03ab1899926177a0e2152e4950eebd2a0648c8c19e3b274f92bca3141442d3e1  src/contrib/homebrew/bitcoin.qt.pro.patch
     5d49268b2af280ecf51cb3c2ca4f82798997d3bcb875d40d7f72032c7d99a47a  src/contrib/homebrew/makefile.osx.patch
     8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903  src/contrib/macdeploy/LICENSE
     473c51966965e403a5e584180572b0a65078cba39ed14fc745bb20b84ba393af  src/contrib/macdeploy/background.png
@@ -98,8 +98,8 @@
     fc6954f9507341e5a8da4bb7f0b92813691d8b1f80421db4e13f1638e036c9b0  src/doc/coding.md
     8bb8d5865a8bd5a2f0d02f4b11f8b05118e1ef330134d2de580d60bbee858b1e  src/doc/files.txt
     fcbf997b24c5ac207f9022362d8f08f12b6e864ae6836b63950f405f6c664916  src/doc/multiwallet-qt.md
-    3baf73f2c3354f66562f7bbc1d51d2da1ccde877fd7945f9697fa375f9f5ffb3  src/doc/readme-qt.rst
-    e647ff0a9e3e294df0d431c93056e53693228ad68415e13fec8ba0214eb68967  src/doc/release-notes.md
+    2518eab360f78f5af18228b55cb23585bb811f5c70d3cc5a2f5e06feb5adca91  src/doc/readme-qt.rst
+    cb79d92151982bcd1dcbe189b0f81b8356d5b86c3b9e4c8a60ba682de2d2db1a  src/doc/release-notes.md
     ab995ce03e6cd2c2d4983803e4e5949ef013c18f31b310fa504e27731c3754ef  src/doc/release-process.md
     7157a199c4f0a7fd9fe4b21ffee6496da807058515c6e48624cabef5a351568a  src/doc/translation_process.md
     5b2b648e02bf4d3d8a6cfe8bda20b0ca42ad5f9d12e93440f23cbb88a5a8749e  src/doc/unit-tests.md
@@ -133,12 +133,12 @@
     b4959ca84a316e494e2d5b61f406e54344249ace24b854e90f34d5deaccf61c3  src/share/pixmaps/send20.bmp
     efb5d66bb902a281406d3b5cc4092008dbdcb5c77b298c06b3ef79e8bfa16160  src/share/pixmaps/send20mask.bmp
     ac4dc284788b29cbdd0cfcb5bd87d07c6adf08f75b27e17a8f90b1ed63e8492e  src/share/qt/Info.plist
-    5b9a4417d2ac6e26a44507ad6e7c6a0764cb4ed063339f20442403aacb3cd7de  src/share/qt/clean_mac_info_plist.py
+    66330cbffa8a17543ccef2f638806ecf294bb4f7c46110f043e61fa194471c4e  src/share/qt/clean_mac_info_plist.py
     790404aae43cf5e0238bc933c69b32d5c92a5e302e8bc699634b36afe86be530  src/share/qt/extract_strings_qt.py
     eb25c24d53894bed646311df57fe37e81e7700c803311beb596b805ba773d28c  src/share/qt/img/reload.xcf
     7328e0f428fd3131ef174c46f9348e2b4595530041ff9fecdd4fd8527c9f76f4  src/share/qt/make_spinner.py
     c7fcbe40d4c299aac20c189b4783886371bc322aeafbba2b69ef12cd79a6a07c  src/share/qt/make_windows_icon.sh
-    451026372ed32885c3d8f019315cb502d3f4332a193aa403a02e215fcdfed61e  src/share/setup.nsi
+    00d7db19927849f80d8ae1fb9745405e5a9a4fa75ecb32fcfc787aa35b7934d8  src/share/setup.nsi
     77823caf9c5b3f320e91a465b4dc0d204f783040688da0c8609afed83a386b81  src/share/ui.rc
     f7859f8274f6bb806f8ecce72da586328b7f9a9ed89569cd76c58e2ad6555cb0  src/src/addrman.cpp
     7d551040a47782e98842ea52cf05d5cb1b7d43c55eab46b473ba1a0f2da981ad  src/src/addrman.h
@@ -154,7 +154,7 @@
     3fd6e9b3afd5865f83790ceac9b0bc5a0a0944eb2be696a1a1ddc5e4b3cd4c5c  src/src/checkpoints.cpp
     a54a8abfd2efd5ab4cac2e02cb1fd43be076ac9e15a8260083f53befadb6fd21  src/src/checkpoints.h
     1a0caede06760890a11e7263c1cdc2c7a4be4d035053b9a871ed3b880a142ae7  src/src/checkqueue.h
-    2c5e61822dc7eba10bb3fe8b6089c5c32426a521abb2ee84b7f18fb5e7c3e622  src/src/clientversion.h
+    7985376e9b1a86c2fa7a4e116d516ccc84b2debccc165f22332dfeb497da711a  src/src/clientversion.h
     d5d362a8c4c078311ea7cd8ceacb7ed7d41c3227ad0a58f2c3b8d1b7bad37aed  src/src/coincontrol.h
     1c4e9adf19f20bde312d2afdc4a350b1df11a4b27fd5738c16cdaa22f35eee30  src/src/compat.h
     eb464ce956920d415e1a775587cd76a56b0fb703a0c79693f5e701ad9a2ea639  src/src/crypter.cpp
@@ -163,7 +163,7 @@
     1bb6b1f38bb1481f29dd08a320f5b404d24e923b6ce9fee1577613365d2e44c9  src/src/db.h
     9b7ceaac1e2e0efa544888a145d09ed59054d615bd581f83624f409962c18f8a  src/src/hash.cpp
     06cadd21562f804b71b610d4608fe6010dfc5ee93b88cac4885d54eaea863f30  src/src/hash.h
-    2f8c1fb9e98723a57247f021a65ecd9eaf87a027bd9465a8b332288dd4df71ea  src/src/init.cpp
+    916cf7ce55d20f54992c3599927f906eeb7a9bc3fa665d2f55dfbba2ba8004ce  src/src/init.cpp
     e09192aad2b5ae617110477c54812a6cf6719799da364feda06901c4a11f4f01  src/src/init.h
     6a1931bd6e6a765e2026127eb03f2ff24b915028991a2282ff20f0b8cb1d1424  src/src/json/LICENSE.txt
     79dd55f9a783c2425e7f2ce85b73ed5356c0633720d8c56eae1a157f41d6fadf  src/src/json/json_spirit.h
@@ -323,11 +323,11 @@
     6c4ab7132cb174e1d4099e93e9b656c89ff0716b76af1f66c47f01bad19de87b  src/src/leveldb/util/testutil.cc
     0a73c868bd45d0f671a30a9c5a4770b781b87339336b191bddb91ab12a8696d1  src/src/leveldb/util/testutil.h
     3e7feacf9c803068fa6ad211d4f6279b2ea370f285f06a82f1566544d0bd304d  src/src/limitedmap.h
-    b4267a3dd70c16506bd0818699cca186af2d1db7f93244aa4da12364e3cea4b7  src/src/main.cpp
+    e822998854e4b26459aa16ec62a92cfb0f2bd999fee2a4577e9e2d2a09efd212  src/src/main.cpp
     c5a52c2075de23bd6c54d5a10fe35b2e92ba66b02340211286ae63d09c866ec4  src/src/main.h
     8bd32e7b401c7bad4b956036f655fc1a38c7ad0e7e08a1e5a1d099cb13e09558  src/src/makefile.linux-mingw
     da71fd8430e3e16ee253ef1b3a0b2802c5512c2b0d51ae7ed0e7e8dfc920072c  src/src/makefile.mingw
-    08b7664424ff2ecf2c6e7406069a63cee64cad6654e601037a1a601de03dcf19  src/src/makefile.osx
+    92c8afbdd0ec0092023329931b16c685d544290becfd40c391310a1f70f6604b  src/src/makefile.osx
     6e5c1c8f1ff48888100c64d6b2b5212b056c13627b132439f5c071cccdc3528e  src/src/makefile.unix
     28ffd4bb54fd9d18c0da7a7637abec313860266d4dc53ffb414d66267bc05b6a  src/src/mruset.h
     3848f89299d06194a45f50275c49a5ede6fc5fd0a1eb72f27c59ef597feb0489  src/src/net.cpp
@@ -360,7 +360,7 @@
     c76ceeab1803b0a977299aeb4c2a71e19ec925ae16890208021a96b27aa4381e  src/src/qt/bitcoinunits.h
     e9db77fed6e4da4de9b4c474198608e1373bc5a8a015c6578a81c6e8fd4c0e5d  src/src/qt/clientmodel.cpp
     8fdff502c648e3cd73f57c00e1e9c577897f1ba5459adaf7ddd0064e7f1b0afc  src/src/qt/clientmodel.h
-    58dea6ab8b10576fe16598dc12ff773d35e55157f5801ec4b47ad5a051eabae4  src/src/qt/coincontroldialog.cpp
+    8bbcd394e04e85fded0067d734a3f5252001c524211d3f85475a49be461d6973  src/src/qt/coincontroldialog.cpp
     5ef417f7b81059c49f96b384be700c3d6c8526eaa92bb0879b92f8961e94bbf9  src/src/qt/coincontroldialog.h
     d39e6992e0592b8c2e77c4fd17f4a228d2006a651934246a998c1a28b5893be3  src/src/qt/coincontroltreewidget.cpp
     c5349efdf79333a70f3f99f99650c77c6f4b798e740ae12c2776aa6de8fd7e36  src/src/qt/coincontroltreewidget.h
@@ -514,7 +514,7 @@
     e869e989208eb9e1ba07efe2564961e0bcd78bf6b056973cccba5e33aa57bfdf  src/src/qt/res/src/questionmark.svg
     9fdd14526e79d252637cc83cdf70d9436de84a9800227525f82dc4c1b785995c  src/src/qt/rpcconsole.cpp
     c09746a889d21d1c38d1707564643a50f1184fe1e84a1689887bbfc1fab53669  src/src/qt/rpcconsole.h
-    9110dd6c0bde8d995990147e11f1a2f8367d8bf3d0e0108aa9ba9906282c6f1b  src/src/qt/sendcoinsdialog.cpp
+    3b1b870f3966e0bf0073e6edd75373fb824585f519f1f8318579da02df1e0ce0  src/src/qt/sendcoinsdialog.cpp
     74d5977a85f3521e0db1920c576b30ddbe09cf409a46ec19bc1365f69adc5388  src/src/qt/sendcoinsdialog.h
     21789e427bc166f3c24a2c1e4e51ddf371e15b435087f0f225976c78ba5bff50  src/src/qt/sendcoinsentry.cpp
     0c13aaa1325225269e855895b178e4c72a83cf81a80abb4daa177e41cfde0763  src/src/qt/sendcoinsentry.h
@@ -554,8 +554,8 @@
     3cc1570212cc03d68b00df3052b5927af75c524eff25adb3f5df8562af987da8  src/src/script.cpp
     ba4cef345f8c9f8b8a9c159ee717f90c96a2ddcab9938a0508e1283126479010  src/src/script.h
     ec4cf5a741a62ca3fd565b9116577507678afd208a8e8ec43af9df7b73a84f77  src/src/scrypt-sse2.cpp
-    92f0e7b9eab25127ed8fdbf8bce2a831e1a0b56d56cb6472e252fadaee7c6ab8  src/src/scrypt.cpp
-    327ecd57b4c790ffb399ceb7757e8786f7875d264f76c7a87cc28faac55e7bc8  src/src/scrypt.h
+    4e3a5239d26cf309990f19cf14a2973cff69f6c2926ab0576d29d8276b124a0b  src/src/scrypt.cpp
+    186c2d7c1666355c33c0ba0812796c898b26d5af3ee581f0589b211a3b622006  src/src/scrypt.h
     17ab4ac091906edfcdcf3439bff6e46b8dbbec43a08f0965e782307d9e5059e5  src/src/serialize.h
     15b5bc822247a83b7ba6553d9b25bcf80ca9a3f510d07d87dbbb9e786b7ab137  src/src/sync.cpp
     57044b2656f37436e9ab35edc2dd6928f226d2fea44ea38d918c59f4acccab68  src/src/sync.h
@@ -593,7 +593,7 @@
     d9fdeb6e670510b75730d526d1afc19800f3b4ae035aeea548062be6863cdff0  src/src/test/rpc_tests.cpp
     bb4d38c59b04c18b31b8b4d3b2c7d3f55f6de0cb8f065f4e2a058b9237025f55  src/src/test/script_P2SH_tests.cpp
     bad76267340b83570c42bc85c7884bea6465c127d6193be0f25e063769a2b063  src/src/test/script_tests.cpp
-    d5e32eb7666eb42917e567f1fdee575dc8d68c54d6185345335b180635492ccd  src/src/test/scrypt_tests.cpp
+    4560459a0bf35fbe5bf56817075d8c6c27091429d00ee9434d6c2d10cc06353e  src/src/test/scrypt_tests.cpp
     cef7a76d558a7ea074c22915ea3af8a3fd2681da2fcee0e9b6b3426fe757d1ea  src/src/test/serialize_tests.cpp
     b073493fa3b227bc1764e0adbb55eba18faa7533a1f51a62c63e420fcb212065  src/src/test/sigopcount_tests.cpp
     acd77a0fed605782a6bda0652cb03187841c66234b62385d1f75079de6dfd83f  src/src/test/test_bitcoin.cpp
@@ -609,18 +609,18 @@
     ff78c940d78f954649607d960719ada9992892b1e21b48fd0dd01b291bff730b  src/src/uint256.h
     005ab249351c8908e23520570e330317620f5ecd5851592d90d12415728228b5  src/src/util.cpp
     b60e7778ae148d55ea987d9200c06400317b9c7ab10e0f3b664a4a53d1bdc9d4  src/src/util.h
-    a7a887024a338906faeee915853a077a51c17d0bc0256e36e49842e2066ee907  src/src/version.cpp
+    9142471bc87620fed75a916d3a413bf2c76475b6063fd9d836940800e13e2592  src/src/version.cpp
     272fe3dfe0009238020a0cb18057bcf92d5d763823463be470402481682a19ec  src/src/version.h
     19b46645ca8515aa33cf36249ba9b388223d80addad5098825375474dad8c59a  src/src/wallet.cpp
     1e4842f66245342eb1cc0f72a3f10e34f5935fde9e441fd8978ed07c89618131  src/src/wallet.h
     fdd948df3b5e0daedc4d172181ce3158d7da08f012f813d8a3d3a1f477f49fe6  src/src/walletdb.cpp
     6d91276a1a9d1e3dbbcf58aa8f650d953bb2b67888d67ac345d8ec12c6aeeb4d  src/src/walletdb.h
 - in_manifest: |-
-    0a1e7848995ed6809468be28f1f008fcd37d0d0b1d9d61a9133f7f995bbbc343  litecoin-desc.yml
+    97bb45ca0883f44a9c02405277e7c14f14e1dbaeb52fb058d6fcfc14439f4867  litecoin-desc.yml
     be21336eda77404dd78804624b804495fb3c263ade0ca74290f6b97f640a7a08  qt-win32-4.8.3-gitian-r4.zip
-    83d7d98caafa0db69ea7cd48ce4e6fc20fd21dbf9411bac37d2fa8e0e6293c7e  boost-win32-1.54.0-gitian-r6.zip
+    cc528619a0d561b34a144dce9815f0f3a85faacce41bd9e83fcf30acb8a0acad  boost-win32-1.55.0-gitian-r6.zip
     29af5e9d19e4db05c80b5ef504ea757345ef7c302e670cb6aaeddf5f30607af5  bitcoin-deps-win32-gitian-r9.zip
-    git:88e2a2e8988b89f905145bdc9af8c34028d0af90 litecoin
+    git:fe7b87a9761d9819bc2dcb6796b46b17fa775a5c litecoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -676,11 +676,12 @@
       9a45775c9903adc68d539fb1137f888e910ad737a641248b205ddb1ac3cebdbd  g++-mingw-w64_4.6.3-1ubuntu5+5ubuntu1_all.deb
       93616930c4f5e25649453378212d115d357f5c5fc2fe733b9b2dba4b3f3c7aa5  g++-mingw-w64-i686_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
       992584c2b49d6a3f71cb6fff627d0ee122c30e3a40ec3fce91308b27ce351f80  g++-mingw-w64-x86-64_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-      1d3efd134af3afba7e9d1107ee1f75611f4af36811301161c829ae74ffd2a05f  gnupg_1.4.11-3ubuntu2.4_amd64.deb
-      ea2dc0bc1ffdd04c42134abde6c029267622d600200b50c1ca55c707023812da  gpgv_1.4.11-3ubuntu2.4_amd64.deb
+      0605c7c67b8d7e4a8c131ff3945b3b4c942daa9cb0549532bfe4ea1df572a949  gnupg_1.4.11-3ubuntu2.5_amd64.deb
+      47dc1daa42e6d53e1a881f4ed9c5472f6732665af2cba082f8fa3931199fb746  gpgv_1.4.11-3ubuntu2.5_amd64.deb
       40d2a394b23a60e29be6bcbdda3f04538456d550a173799d6915c8f6259e6a03  grep_2.10-1_amd64.deb
       61f71d3422160c2a1f8914d32eee929398a31f3a62c377d256572476c9a03b2b  grub_0.97-29ubuntu66_amd64.deb
       2c797fd518d21e8fa6b6b8beec0633f33c25c7463597834d7e462d6bca669528  grub-common_1.99-21ubuntu3.10_amd64.deb
+      26608ec5e9ec05894eaea23d7b00855b6f7680a58385e1f825836a097ac09e90  grub-common_1.99-21ubuntu3.14_amd64.deb
       125a83c3fda730f490d043fe07963e4758ffe740d482196c8a55a323f823f8a5  gzip_1.4-1ubuntu2_amd64.deb
       e38753db3dbbf43635d9234290026a26b4cca1a5d61afaae8ac7f70ba30e71a6  hostname_3.06ubuntu1_amd64.deb
       3317b1014009443013b17ba0bbdfa3695c3c882f0995d59da58e690fc9fc0149  ifupdown_0.7~beta2ubuntu10_amd64.deb
@@ -688,7 +689,7 @@
       c9fb6afaf51f733ad03614d74b061f040ad81afefdb726fc3bdb60af74353c7f  initramfs-tools-bin_0.99ubuntu13.4_amd64.deb
       75fbe9fe85d7aeddd32cf1abcda704ba265213045c13e6c6006a1f22780d3643  initscripts_2.88dsf-13.10ubuntu11.1_amd64.deb
       8485512ac1c7e10d38e2bc5386ea501927b44101b3faee48601546afd4768994  insserv_1.14.0-2.1ubuntu2_amd64.deb
-      b5da42196d80dfa2be8a7c4b009794e549ecec8c4f96e8a889d641556311e1ab  iproute_20111117-1ubuntu2_amd64.deb
+      81b7399f8c87d139431ccc62df4956cc616049bbecdcd2b5ef8bbaaf5c2089b3  iproute_20111117-1ubuntu2.1_amd64.deb
       489e237fec06fbeffb51788b9c276fdf571678893de09d2bf0562b5005b58a3b  iputils-ping_3%3a20101006-1ubuntu1_amd64.deb
       cefcc8d8ffb6b759bf387b0f57b6161873db14c9680b32dfd9458e056eafd448  isc-dhcp-client_4.1.ESV-R4-0ubuntu5.9_amd64.deb
       7b84f964fe3bfc6e13ae9fdf7a7e97b3344e21be71f4ae749085289f363fbdaa  isc-dhcp-common_4.1.ESV-R4-0ubuntu5.9_amd64.deb
@@ -717,16 +718,16 @@
       42f6fa590221cf9bb0c843f14ad24a81dab6a62c2a7671eedb2abf48e4c1cb41  libc-dev-bin_2.15-0ubuntu10.5_amd64.deb
       e12f72c19858e5816153ee36238543da6dc35fdb2b28661b3f54b7fb427208b8  libclass-isa-perl_0.36-3_all.deb
       7c262727865a74b440e59dcf1f206d674bf8b034ce68d425c7b3a3516386885c  libcomerr2_1.42-1ubuntu2_amd64.deb
-      b85fe455f160395536e7c038221a69dbff36ca89cbbc4a3026445818193211c9  libcurl3-gnutls_7.22.0-3ubuntu4.5_amd64.deb
+      b8089aee82d9d3cc6aea70d08756d8110940f25743f6ea1cbdcbb07da49d9ab5  libcurl3-gnutls_7.22.0-3ubuntu4.6_amd64.deb
       e0d4f5fa2136f4c5ef5077f8f1f2374ba70f844c845148133b8bdeff33e38973  libdb4.8_4.8.30-11ubuntu1_amd64.deb
       2240219ab425e2c21d15f949a848b84dbc6a0f5df0a9296336e394f26b917feb  libdb5.1_5.1.25-11build1_amd64.deb
       8d6c5ffa191a84f8fed0f330a26231de95ad7146b31ea68896cf2e446774d406  libdbus-1-3_1.4.18-1ubuntu1.4_amd64.deb
       97b1f7e0e3188ba4acf665c3c31d0c2cca5af2665b6b634357ba90bbc0487341  libdevmapper1.02.1_2%3a1.02.48-4ubuntu7.3_amd64.deb
       d7c99c96c8a15dcc2c7603436576dec976fe32a764763b2c4784927d2f5144b9  libdpkg-perl_1.16.1.2ubuntu7.2_all.deb
-      4151e2dd00d1a583923d5266d9614fa3dfa4c90bb8f950850dad934c163b7670  libdrm2_2.4.43-0ubuntu0.0.3_amd64.deb
-      db6c28d5dc9a5c4c89d83dde95c16548504897e92b282f2a5778aa565b2fb6ec  libdrm-intel1_2.4.43-0ubuntu0.0.3_amd64.deb
-      b56d77a9f2547f0925d65728c2db4e4ca973f570291575102f2d46a0d5b0a747  libdrm-nouveau1a_2.4.43-0ubuntu0.0.3_amd64.deb
-      df81e55843144c8cb26d520d5afef0d3e8f709a7965507431732ef785e22419a  libdrm-radeon1_2.4.43-0ubuntu0.0.3_amd64.deb
+      0742e31a91695087be224583f384eeee7e53356b892787b52a388cc0427fe767  libdrm2_2.4.46-1ubuntu0.0.0.1_amd64.deb
+      6009a976de819f8d0d1e79375ce282302361e6b86654821c0dd1def990206d2b  libdrm-intel1_2.4.46-1ubuntu0.0.0.1_amd64.deb
+      c5d43cb9ed4e404f382b2fc1c347e3e491ad5ad040ae8ebef704dd022ef4e144  libdrm-nouveau1a_2.4.46-1ubuntu0.0.0.1_amd64.deb
+      cf64752141147ed69b53531d1d07168a27075e736d69d979a31344dfb04ffaeb  libdrm-radeon1_2.4.46-1ubuntu0.0.0.1_amd64.deb
       2d3ac80e072ed712d9eab933d93bae074933b7feb89250100a91b5ead33e9fdc  libedit2_2.11-20080614-3ubuntu2_amd64.deb
       ad722614ef496e3f85749f85cf0fa6091846db1d7dd82b953aa5d4605d4176f7  libelf1_0.152-1ubuntu3_amd64.deb
       c4beaa616c9af4cafe9b49cf5ad2cbf048c55ef27f128e9ceba088c6011aa993  liberror-perl_0.17-1_all.deb
@@ -794,7 +795,7 @@
       5d5c73ef890bc93421cc6925b9a5d52e7f412bbfc3c90927581eda10cb6bb0c5  libslang2_2.2.4-3ubuntu1_amd64.deb
       c28bea8cdd5e89486397f2f037c9ea79f12fb56a4a8f8517209ab57e628809e5  libsqlite3-0_3.7.9-2ubuntu1.1_amd64.deb
       6d1405430065456e935d99095817e163541d3ad728e8e9c73ee8b48cc79d2825  libss2_1.42-1ubuntu2_amd64.deb
-      9f8b0df37301fae9d70f9c9e8df73c7177bf3e27c7ef0995b26f7671e8a9c15c  libssl1.0.0_1.0.1-4ubuntu5.10_amd64.deb
+      b1818a0956000518a3d79f64c1bb0ee13c59fea61304a7505f1b6c537c299621  libssl1.0.0_1.0.1-4ubuntu5.11_amd64.deb
       232ff1166d4d567998e9a77a5a77c859f28bf3c7a0d96baaf21907ad07a0342d  libstdc++6_4.6.3-1ubuntu5_amd64.deb
       d325f6c3f376b275057048c98bbe81924fdad0f9bcedb47e21d9d01be0f52924  libstdc++6-4.6-dev_4.6.3-1ubuntu5_amd64.deb
       535c9d816e29d6f8f59a554f4910d80690ff44b90588fc118eba9b6c513c7693  libsvn1_1.6.17dfsg-3ubuntu3.3_amd64.deb
@@ -821,10 +822,10 @@
       5945561ab9bffbf9d91d618bf9fe5862b9d42abdff797429bc75b8d034b7fb28  linux-firmware_1.79.6_all.deb
       dad57299eee7a3064bef97b8386da3009de5e2bd027fe99cef7c9365e953cd8a  linux-firmware_1.79.9_all.deb
       c037ec1c76f914f78a823df0a84c822f75887ca80bda659dd6770e5075fbcb0d  linux-image-3.2.0-53-virtual_3.2.0-53.81_amd64.deb
-      eef366b5d504f69adedc94b54d4b9ac5161f38af2fae1c245afcc0a6ad61a8b7  linux-image-3.2.0-57-virtual_3.2.0-57.87_amd64.deb
+      8b25c231e925c9e3079c13ed220de977a9e831beca73719aa41df12848501b46  linux-image-3.2.0-58-virtual_3.2.0-58.88_amd64.deb
       03274d4ce98227c6fd51e4570c28dcb9b7146aea5a0eced51898a9c895c59bad  linux-image-virtual_3.2.0.53.63_amd64.deb
-      e2251bc0a27c5eea0d0add93f7bfb8d844910659bf87f7af891925d211a85314  linux-image-virtual_3.2.0.57.68_amd64.deb
-      220a1d7847c2b7d9ee73c1148d563f28461d4d0f3e7d04cc9bac33a2b3fdaa60  linux-libc-dev_3.2.0-57.87_amd64.deb
+      8f43a0a2667725836057a463f737f925870fd82834213d64a7affb2e227b97ed  linux-image-virtual_3.2.0.58.69_amd64.deb
+      4d1570b8316071567776169be2e41f28f7638a081d865a3dc6d12401df2984c1  linux-libc-dev_3.2.0-58.88_amd64.deb
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
       7127dd8a3fe3391cc7c978030a3b6d257f0da7a17aa2d7ad54c18dba832bfddf  lockfile-progs_0.1.16_amd64.deb
       a6e9bf44ae885e073d4c1049031c15f5077c31fe8faf4fa7bf22073e65412b3d  login_1%3a4.1.4.2+svn3283-3ubuntu5.1_amd64.deb
@@ -853,7 +854,7 @@
       60d899dd58f15ab12d5e2d2699a34e6fa41fa65d4bf677b5ad9d5749c0fbec4a  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.1_amd64.deb
       66323667c4b13360d8d025899ea1088c4820c6386a1aa38e68639a4a59a3a191  openssh-client_1%3a5.9p1-5ubuntu1.1_amd64.deb
       21881d0a7c61330357dc9812bc994a17c7b60c46022326a677c936e94ccc71a5  openssh-server_1%3a5.9p1-5ubuntu1.1_amd64.deb
-      ce220317540eb648fec7f1e82a0eb740583125623a961a1926b9c59c5d9899f3  openssl_1.0.1-4ubuntu5.10_amd64.deb
+      7ef2113745c4a9ab8f1abe49e91e0ffbad0f1a7489847339033a6158b512fa94  openssl_1.0.1-4ubuntu5.11_amd64.deb
       ed9eb5c3c9ea3cd555b1aa16cf93f4130b59325ef6786f2c5d421a8c0213c1c6  os-prober_1.51ubuntu3_amd64.deb
       782fc7fb2b5fc7e781cc5976d7380994fdc46291dfa0f70ffca524a78cee447b  passwd_1%3a4.1.4.2+svn3283-3ubuntu5.1_amd64.deb
       0a8a5faa3cc7262b0e6094641318e40aa7927a782d1286856e81b57e595264ee  patch_2.6.1-3_amd64.deb
@@ -900,7 +901,7 @@
       f8a33b5e2f20182e97e1f3bce11e40fb865871bab6a06d8303ac93ed15c24f72  xml-core_0.13_all.deb
       7286d934162cc98f45deaa681a4c46fd3357a1b014ec456d840826a286ea2e3d  xz-utils_5.1.1alpha+20110809-3_amd64.deb
       af0c73bd8d99f280a54570bc2008fccc57be5b6c9f3e1418c34497a8d5a2ffba  zlib1g_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
-- release: 0.8.6.1-win32
+- release: 0.8.6.2-win32
 - name: litecoin
 - type: build
 - optionals: 
